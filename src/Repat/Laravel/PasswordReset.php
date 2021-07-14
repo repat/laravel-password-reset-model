@@ -4,7 +4,6 @@ namespace Repat\Laravel;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Support\Facades\Config;
 
 class PasswordReset extends \Illuminate\Database\Eloquent\Model
 {
@@ -35,6 +34,13 @@ class PasswordReset extends \Illuminate\Database\Eloquent\Model
      * @var bool
      */
     public $timestamps = false;
+
+    /**
+     * The attributes that are mass assignable or guarded against it.
+     *
+     * @var array
+     */
+    public $guarded = [];
 
     /**
      * Casting DB fields

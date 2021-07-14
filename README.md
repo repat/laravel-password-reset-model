@@ -11,6 +11,8 @@
 
 ## Documentation
 
+All fields are fillable (`$guarded = []`).
+
 ### Relationship / Attributes
 
 If you've kept the standard FQCN for Laravels User Model (`\App\Model\User::class`) you can use the `->user` relationship or extend this model and override the `user()` method.
@@ -33,7 +35,7 @@ $passwordReset->created_at; // \Carbon\Carbon|null
 
 ## Version
 
-* Version 0.1
+* Version 0.1.1
 
 ## Contact
 
