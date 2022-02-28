@@ -35,7 +35,7 @@ $passwordReset->created_at; // \Carbon\Carbon|null
 
 ## Version
 
-* Version 0.1.1
+* Version 0.2
 
 ## Contact
 
